@@ -1,6 +1,6 @@
 {
   "round": 2,
-  "status": "planned",
+  "status": "scheduled",
   "network": "HyperEVM mainnet",
   "chainId": 999,
   "contract": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
@@ -12,8 +12,8 @@
     "reserveBps": 500
   },
   "game": "multi-constraint knapsack",
-  "commitWindow": "24h",
-  "revealWindow": "4h",
+  "commitWindow": "48h",
+  "revealWindow": "8h",
   "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9",
   "issue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2"
 }

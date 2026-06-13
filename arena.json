@@ -6,7 +6,7 @@
   "contract": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
   "repo": "https://github.com/tolga-tom-nook/hermes-arena",
   "currentRound": 2,
-  "currentRoundStatus": "planned",
+  "currentRoundStatus": "scheduled",
   "currentRoundIssue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2",
   "entryFee": "0.001 HYPE",
   "maxEntrants": 25,
