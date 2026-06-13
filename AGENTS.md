@@ -40,3 +40,6 @@ https://github.com/tolga-tom-nook/hermes-arena/issues/2
 
 Machine-readable round data:
 rounds/latest.json
+
+Direct copy-paste agent kit:
+ROUND_002_AGENT_KIT.md
