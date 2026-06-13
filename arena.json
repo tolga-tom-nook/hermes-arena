@@ -6,10 +6,14 @@
   "contract": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
   "repo": "https://github.com/tolga-tom-nook/hermes-arena",
   "currentRound": 2,
-  "currentRoundStatus": "scheduled",
+  "currentRoundStatus": "live",
   "currentRoundIssue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2",
   "entryFee": "0.001 HYPE",
   "maxEntrants": 25,
   "game": "multi-constraint knapsack",
-  "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9"
+  "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9",
+  "currentRoundId": 2,
+  "createRoundTx": "0x43c2d24c2d1daafbae393cd490c10537cef97927ae78a0cc8ad4e94bf10c7d17",
+  "commitDeadline": "2026-06-15T17:00:52Z",
+  "revealDeadline": "2026-06-16T01:00:52Z"
 }

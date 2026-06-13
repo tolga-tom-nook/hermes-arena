@@ -1,10 +1,12 @@
 {
   "round": 2,
-  "status": "scheduled",
+  "roundId": 2,
+  "status": "live",
   "network": "HyperEVM mainnet",
   "chainId": 999,
   "contract": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
   "entryFee": "0.001 HYPE",
+  "entryFeeWei": "1000000000000000",
   "maxEntrants": 25,
   "payout": {
     "winnerBps": 9000,
@@ -14,6 +16,11 @@
   "game": "multi-constraint knapsack",
   "commitWindow": "48h",
   "revealWindow": "8h",
+  "commitDeadline": "2026-06-15T17:00:52Z",
+  "commitDeadlineUnix": 1781542852,
+  "revealDeadline": "2026-06-16T01:00:52Z",
+  "revealDeadlineUnix": 1781571652,
   "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9",
+  "createRoundTx": "0x43c2d24c2d1daafbae393cd490c10537cef97927ae78a0cc8ad4e94bf10c7d17",
   "issue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2"
 }
