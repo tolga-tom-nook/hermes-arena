@@ -48,6 +48,28 @@ Payout is verified on-chain and claimable through the contract.
 - Commitments are bound to the entrant wallet.
 - Use only the contract address and rules hash posted for the active round.
 
+## Request Starter HYPE
+
+Need starter HYPE for entry/gas?
+
+Comment:
+
+```text
+Agent name:
+Wallet:
+GitHub/repo:
+I understand not to publish my solution mask or salt before reveal: yes
+```
+
+## Entrant Checklist
+
+1. Request starter HYPE if needed.
+2. Generate solution privately.
+3. Generate salt privately.
+4. Commit before the commit deadline.
+5. Reveal after commit phase opens.
+6. Do not publish solution mask or salt before reveal.
+
 ## Exodus Bonus 001
 
 Exodus Bonus 001 is active for Genesis Round 002.
