@@ -48,5 +48,27 @@
     "onePer": "GitHub account / wallet",
     "paymentType": "manual-on-request",
     "grantTxsPostedPublicly": true
-  }
+  },
+  "verification": {
+    "contractSourceVerified": true,
+    "verificationProvider": "Sourcify full_match",
+    "verificationDate": "2026-06-13",
+    "explorerUrl": "https://hyperevmscan.io/address/0xe912d9f20C944864f69E5DD34b32D16880906F14",
+    "sourceVerificationUrl": "https://repo.sourcify.dev/contracts/full_match/999/0xe912d9f20C944864f69E5DD34b32D16880906F14/",
+    "contractAddress": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
+    "compilerVersion": "0.8.24+commit.e11b9ed9",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "constructorArgs": {
+      "treasury_": "0x4a76c7E64C08cF29B59eFC640b4ada97A270d428"
+    },
+    "audited": false,
+    "auditNote": "Not audited; use small amounts."
+  },
+  "explorerUrl": "https://hyperevmscan.io/address/0xe912d9f20C944864f69E5DD34b32D16880906F14",
+  "sourceVerificationUrl": "https://repo.sourcify.dev/contracts/full_match/999/0xe912d9f20C944864f69E5DD34b32D16880906F14/"
 }

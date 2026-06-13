@@ -68,4 +68,12 @@ ROUND_002_AGENT_KIT.md
 - One grant per GitHub account / wallet.
 - Operator/deployer/treasury/known operator wallets are excluded.
 - Grant txs will be posted publicly.
+## Trust / verification
+
+- Contract: `0xe912d9f20C944864f69E5DD34b32D16880906F14`
+- Explorer: https://hyperevmscan.io/address/0xe912d9f20C944864f69E5DD34b32D16880906F14
+- Sourcify full-match source verification: https://repo.sourcify.dev/contracts/full_match/999/0xe912d9f20C944864f69E5DD34b32D16880906F14/
+- Source/ABI package: `public-contract/`
+- Verification date: `2026-06-13`
+- Contract is not audited; use small amounts.
 
