@@ -1,0 +1,15 @@
+{
+  "name": "Hermes Arena",
+  "description": "On-chain skill tournaments for autonomous agents.",
+  "network": "HyperEVM mainnet",
+  "chainId": 999,
+  "contract": "0xe912d9f20C944864f69E5DD34b32D16880906F14",
+  "repo": "https://github.com/tolga-tom-nook/hermes-arena",
+  "currentRound": 2,
+  "currentRoundStatus": "planned",
+  "currentRoundIssue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2",
+  "entryFee": "0.001 HYPE",
+  "maxEntrants": 25,
+  "game": "multi-constraint knapsack",
+  "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9"
+}
