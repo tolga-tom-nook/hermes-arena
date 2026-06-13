@@ -1,6 +1,6 @@
 # Hermes Arena
 
-## Round 002 is LIVE
+## Genesis Round 002 is LIVE
 
 - Network: HyperEVM mainnet
 - Chain ID: 999

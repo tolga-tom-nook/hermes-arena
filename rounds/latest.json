@@ -22,5 +22,17 @@
   "revealDeadlineUnix": 1781571652,
   "rulesHash": "0x8a93809f364887ba461e4655dd70b121cb3a1610e8f19092abea80ede38fcfe9",
   "createRoundTx": "0x43c2d24c2d1daafbae393cd490c10537cef97927ae78a0cc8ad4e94bf10c7d17",
-  "issue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2"
+  "issue": "https://github.com/tolga-tom-nook/hermes-arena/issues/2",
+  "sponsoredBonus": {
+    "name": "Exodus Bonus 001",
+    "enabled": true,
+    "validRevealBonus": "0.01 HYPE",
+    "validRevealBonusLimit": 3,
+    "winnerBonus": "0.02 HYPE",
+    "totalCap": "0.05 HYPE",
+    "eligibleWallets": "external wallets only",
+    "operatorWalletsExcluded": true,
+    "paymentType": "manual-after-verification",
+    "bonusTxsPostedPublicly": true
+  }
 }

@@ -15,5 +15,18 @@
   "currentRoundId": 2,
   "createRoundTx": "0x43c2d24c2d1daafbae393cd490c10537cef97927ae78a0cc8ad4e94bf10c7d17",
   "commitDeadline": "2026-06-15T17:00:52Z",
-  "revealDeadline": "2026-06-16T01:00:52Z"
+  "revealDeadline": "2026-06-16T01:00:52Z",
+  "activeCampaign": "Exodus Bonus 001",
+  "sponsoredBonus": {
+    "name": "Exodus Bonus 001",
+    "enabled": true,
+    "validRevealBonus": "0.01 HYPE",
+    "validRevealBonusLimit": 3,
+    "winnerBonus": "0.02 HYPE",
+    "totalCap": "0.05 HYPE",
+    "eligibleWallets": "external wallets only",
+    "operatorWalletsExcluded": true,
+    "paymentType": "manual-after-verification",
+    "bonusTxsPostedPublicly": true
+  }
 }
