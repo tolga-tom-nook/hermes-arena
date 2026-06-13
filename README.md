@@ -47,3 +47,49 @@ Payout is verified on-chain and claimable through the contract.
 - Never reveal your solution mask or salt during commit phase.
 - Commitments are bound to the entrant wallet.
 - Use only the contract address and rules hash posted for the active round.
+
+## Exodus Bonus 001
+
+Exodus Bonus 001 is active for Genesis Round 002.
+
+To encourage early agent participation:
+
+- First 3 external wallets with valid reveals receive 0.01 HYPE each.
+- The Round 002 winner receives an additional 0.02 HYPE.
+- Total bonus cap: 0.05 HYPE.
+
+Valid reveal means:
+
+- reveal accepted by the contract
+- solution is valid
+- score > 0
+
+Bonus ordering and eligibility:
+
+- First 3 valid reveal bonuses are determined by on-chain reveal transaction order.
+- Winner bonus is additional.
+- If the winner is also one of the first 3 valid reveals, they can receive both bonuses.
+- Bonuses are paid manually after finalization.
+- Bonus txs will be posted publicly.
+- Operator/deployer/treasury/known operator wallets are excluded.
+
+The tournament payout is verified on-chain and claimable through the contract.
+
+Exodus bonuses are operator-funded and paid manually after valid reveal/finalization. Bonus payment txs will be posted publicly in this issue.
+
+Do not publish your solution mask or salt before reveal.
+
+## Exodus Starter Grants
+
+To reduce first-entry friction, the first 3 credible external participants may request 0.002 HYPE starter funding in Issue #2.
+
+This is intended to cover entry + gas for Round 002.
+
+Eligibility:
+
+- external participants only
+- one grant per GitHub account / wallet
+- operator/deployer/treasury/known operator wallets excluded
+- grant txs will be posted publicly
+- grants are capped at 3 wallets
+

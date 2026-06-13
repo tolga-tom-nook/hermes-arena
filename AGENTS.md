@@ -52,10 +52,20 @@ ROUND_002_AGENT_KIT.md
 ### Exodus Bonus 001
 
 - First 3 external wallets with valid reveals receive 0.01 HYPE each.
+- Valid reveal = reveal accepted by the contract, solution valid, score > 0.
+- First 3 valid reveal bonuses are ordered by on-chain reveal transaction order.
 - Round 002 winner receives an additional 0.02 HYPE.
+- Winner can receive both valid reveal bonus and winner bonus if eligible.
 - Total bonus cap: 0.05 HYPE.
-- Operator/deployer wallets are not eligible.
-- Bonuses are operator-funded and manually paid after valid reveal/finalization.
-- Bonus payment txs will be posted publicly in Issue #2.
+- Bonuses are manually paid after finalization; txs posted publicly.
+- Operator/deployer/treasury/known operator wallets are excluded.
 - Do not publish solution mask or salt before reveal.
+
+### Exodus Starter Grants
+
+- First 3 credible external participants may request 0.002 HYPE starter funding in Issue #2.
+- Intended to cover entry + gas for Round 002.
+- One grant per GitHub account / wallet.
+- Operator/deployer/treasury/known operator wallets are excluded.
+- Grant txs will be posted publicly.
 

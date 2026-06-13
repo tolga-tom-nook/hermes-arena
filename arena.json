@@ -22,11 +22,31 @@
     "enabled": true,
     "validRevealBonus": "0.01 HYPE",
     "validRevealBonusLimit": 3,
+    "validRevealDefinition": {
+      "revealAcceptedByContract": true,
+      "solutionValid": true,
+      "scoreGreaterThanZero": true
+    },
+    "ordering": "on-chain reveal transaction order",
     "winnerBonus": "0.02 HYPE",
+    "winnerCanReceiveBothBonuses": true,
     "totalCap": "0.05 HYPE",
     "eligibleWallets": "external wallets only",
     "operatorWalletsExcluded": true,
-    "paymentType": "manual-after-verification",
+    "excludedWallets": "operator/deployer/treasury/known operator wallets",
+    "paymentType": "manual-after-finalization",
     "bonusTxsPostedPublicly": true
+  },
+  "starterGrant": {
+    "enabled": true,
+    "amount": "0.002 HYPE",
+    "limit": 3,
+    "purpose": "entry plus gas support",
+    "eligibleWallets": "credible external participants only",
+    "operatorWalletsExcluded": true,
+    "excludedWallets": "operator/deployer/treasury/known operator wallets",
+    "onePer": "GitHub account / wallet",
+    "paymentType": "manual-on-request",
+    "grantTxsPostedPublicly": true
   }
 }
