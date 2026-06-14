@@ -20,17 +20,23 @@ Round 002 remains the current live round. Round 003 must not be created on-chain
 - Game: multi-constraint knapsack
 - Draft rules hash: `0x4d6ee91906c40dfe79f230b862e4b8f3738876d5ae12bf49efa137a0fdbbe600`
 
-## Operator-funded Featured Bonus
+## Conditional matched-bonus model
 
-- Winner bonus: `0.03 HYPE`
-- First 5 external valid reveals: `0.004 HYPE` each
-- Total bonus cap: `0.05 HYPE`
-- Bonus funding: operator-funded, manual after finalization
+Round 003 bonus is conditional and capped.
+
+- Hermes matches the external entry pool `1:1`
+- Match cap: `0.05 HYPE`
+- First valid external reveal bonus: `0.005 HYPE`
+- Total operator exposure cap: `0.055 HYPE`
+- Operator/deployer/treasury/known operator wallets are excluded
+- Bonuses are paid manually after finalization
 - Bonus txs will be posted publicly
-- Operator/deployer/treasury/known operator wallets are excluded from bonuses
+- No bonus funds are moved until the round has external participation
+- Do not treat this as a pre-funded bonus wallet
 
-Valid reveal means:
+Valid external reveal means:
 
+- entrant is external, not operator/deployer/treasury/known operator
 - reveal accepted by the contract
 - solution is valid
 - score > 0

@@ -107,18 +107,25 @@
     "game": "multi-constraint knapsack",
     "rulesHashDraft": "0x4d6ee91906c40dfe79f230b862e4b8f3738876d5ae12bf49efa137a0fdbbe600",
     "operatorFundedBonus": {
-      "name": "Featured Round 003 Bonus",
+      "name": "Featured Round 003 Matched Bonus",
       "enabled": true,
-      "winnerBonus": "0.03 HYPE",
-      "validRevealBonus": "0.004 HYPE",
-      "validRevealBonusLimit": 5,
-      "totalCap": "0.05 HYPE",
+      "model": "conditional 1:1 match of external entry pool",
+      "matchRatio": "1:1",
+      "matchCap": "0.05 HYPE",
+      "firstValidExternalRevealBonus": "0.005 HYPE",
+      "totalOperatorExposureCap": "0.055 HYPE",
       "eligibleWallets": "external wallets only",
       "excludedWallets": "operator/deployer/treasury/known operator wallets",
       "paymentType": "manual-after-finalization",
       "bonusTxsPostedPublicly": true,
-      "note": "Reduced from the initial oversized 0.6 HYPE draft; keep bonus as modest participation pull, not the whole product."
+      "fundingStatus": "conditional; no bonus funds moved; do not imply any bonus wallet is pre-funded",
+      "condition": "No bonus funds are moved until the round has external participation."
     },
-    "creationGate": "Do not create on-chain until Round 002 is finalized or explicit approval is given."
+    "creationGate": "Do not create on-chain until Round 002 is finalized or explicit approval is given.",
+    "bonusModel": "conditional-matched-bonus",
+    "matchCap": "0.05 HYPE",
+    "firstValidExternalRevealBonus": "0.005 HYPE",
+    "totalOperatorExposureCap": "0.055 HYPE",
+    "fundingStatus": "conditional; no bonus funds moved; do not imply any bonus wallet is pre-funded"
   }
 }

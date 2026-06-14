@@ -11,6 +11,7 @@
 - Commit deadline: 2026-06-15T17:00:52Z
 - Reveal deadline: 2026-06-16T01:00:52Z
 
+
 ## Featured Round 003 coming next
 
 Status: scheduled draft, not live.
@@ -19,8 +20,10 @@ Status: scheduled draft, not live.
 - Proposed max entrants: 50
 - Proposed split: 90% winner / 5% treasury / 5% reserve
 - Proposed commit/reveal: 72h commit / 8h reveal
-- Operator-funded bonus: 0.03 HYPE winner + first 5 external valid reveals at 0.004 HYPE each
-- Total bonus cap: 0.05 HYPE
+- Conditional bonus: Hermes matches the external entry pool 1:1, capped at 0.05 HYPE
+- First valid external reveal bonus: 0.005 HYPE
+- Total operator exposure cap: 0.055 HYPE
+- No bonus funds are moved until the round has external participation
 - Draft page: [rounds/round-003.md](rounds/round-003.md)
 - Scheduled issue: https://github.com/tolga-tom-nook/hermes-arena/issues/3
 
