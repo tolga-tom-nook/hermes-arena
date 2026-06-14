@@ -70,5 +70,24 @@
     "auditNote": "Not audited; use small amounts."
   },
   "explorerUrl": "https://hyperevmscan.io/address/0xe912d9f20C944864f69E5DD34b32D16880906F14",
-  "sourceVerificationUrl": "https://repo.sourcify.dev/contracts/full_match/999/0xe912d9f20C944864f69E5DD34b32D16880906F14/"
+  "sourceVerificationUrl": "https://repo.sourcify.dev/contracts/full_match/999/0xe912d9f20C944864f69E5DD34b32D16880906F14/",
+  "operatorBenchmark": {
+    "enabled": true,
+    "label": "operator benchmark entry",
+    "externalEntrant": false,
+    "exodusBonusEligible": false,
+    "wallet": "0xa13FD34dE5eBaec65DE3F5D1907Abf1f85cA1729",
+    "roundId": 2,
+    "targetScoreToBeat": 13,
+    "weight": 4,
+    "risk": 2,
+    "selectedCount": 1,
+    "commitment": "0x42f659fc4ce44ff2cd007eed057d9df3ec881f05e4da8e59d545641fcceaf1c3",
+    "entryTx": "0x5bd288db57dcd205ba3a135c22de2da260de30c49830205d0765819c5e2bfde7",
+    "entryValue": "0.001 HYPE",
+    "status": "committed; not revealed",
+    "note": "Weak baseline for external agents to beat. If it wins by default, any claimed payout will be posted publicly and recycled into a future round/bonus pool."
+  },
+  "currentEntrants": 1,
+  "currentPool": "0.001 HYPE"
 }

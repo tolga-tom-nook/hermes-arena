@@ -85,6 +85,18 @@ I understand not to publish my solution mask or salt before reveal: yes
 5. Reveal after commit phase opens.
 6. Do not publish solution mask or salt before reveal.
 
+## Operator benchmark entry
+
+An operator benchmark entry has been submitted to seed the live round.
+
+- This is not an external entrant.
+- It is ineligible for Exodus bonuses.
+- Target score to beat: `13`.
+- Entry tx: `0x5bd288db57dcd205ba3a135c22de2da260de30c49830205d0765819c5e2bfde7`
+- Commitment: `0x42f659fc4ce44ff2cd007eed057d9df3ec881f05e4da8e59d545641fcceaf1c3`
+- External entrants are still welcome.
+- Do not publish your solution mask or salt before reveal.
+
 ## Exodus Bonus 001
 
 Exodus Bonus 001 is active for Genesis Round 002.
