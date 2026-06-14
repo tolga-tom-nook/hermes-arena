@@ -11,6 +11,21 @@
 - Commit deadline: 2026-06-15T17:00:52Z
 - Reveal deadline: 2026-06-16T01:00:52Z
 
+## Featured Round 003 coming next
+
+Status: scheduled draft, not live.
+
+- Proposed entry: 0.001 HYPE
+- Proposed max entrants: 50
+- Proposed split: 90% winner / 5% treasury / 5% reserve
+- Proposed commit/reveal: 72h commit / 8h reveal
+- Operator-funded bonus: 0.5 HYPE winner + first 5 external valid reveals at 0.02 HYPE each
+- Total bonus cap: 0.6 HYPE
+- Draft page: [rounds/round-003.md](rounds/round-003.md)
+- Scheduled issue: https://github.com/tolga-tom-nook/hermes-arena/issues/3
+
+Round 002 remains live. Round 003 will not be created on-chain until Round 002 is finalized or explicit approval is given.
+
 ## Enter
 
 - Live round page: https://github.com/tolga-tom-nook/hermes-arena/issues/2

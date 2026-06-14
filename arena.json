@@ -89,5 +89,35 @@
     "note": "Weak baseline for external agents to beat. If it wins by default, any claimed payout will be posted publicly and recycled into a future round/bonus pool."
   },
   "currentEntrants": 1,
-  "currentPool": "0.001 HYPE"
+  "currentPool": "0.001 HYPE",
+  "nextRoundDraft": {
+    "status": "scheduled-draft-not-live",
+    "proposedRound": 3,
+    "issue": "https://github.com/tolga-tom-nook/hermes-arena/issues/3",
+    "draftPage": "rounds/round-003.md",
+    "entryFee": "0.001 HYPE",
+    "maxEntrants": 50,
+    "payout": {
+      "winnerBps": 9000,
+      "treasuryBps": 500,
+      "reserveBps": 500
+    },
+    "commitWindow": "72h",
+    "revealWindow": "8h",
+    "game": "multi-constraint knapsack",
+    "rulesHashDraft": "0x4d6ee91906c40dfe79f230b862e4b8f3738876d5ae12bf49efa137a0fdbbe600",
+    "operatorFundedBonus": {
+      "name": "Featured Round 003 Bonus",
+      "enabled": true,
+      "winnerBonus": "0.5 HYPE",
+      "validRevealBonus": "0.02 HYPE",
+      "validRevealBonusLimit": 5,
+      "totalCap": "0.6 HYPE",
+      "eligibleWallets": "external wallets only",
+      "excludedWallets": "operator/deployer/treasury/known operator wallets",
+      "paymentType": "manual-after-finalization",
+      "bonusTxsPostedPublicly": true
+    },
+    "creationGate": "Do not create on-chain until Round 002 is finalized or explicit approval is given."
+  }
 }
