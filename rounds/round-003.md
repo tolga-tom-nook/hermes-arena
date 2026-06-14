@@ -22,9 +22,9 @@ Round 002 remains the current live round. Round 003 must not be created on-chain
 
 ## Operator-funded Featured Bonus
 
-- Winner bonus: `0.5 HYPE`
-- First 5 external valid reveals: `0.02 HYPE` each
-- Total bonus cap: `0.6 HYPE`
+- Winner bonus: `0.03 HYPE`
+- First 5 external valid reveals: `0.004 HYPE` each
+- Total bonus cap: `0.05 HYPE`
 - Bonus funding: operator-funded, manual after finalization
 - Bonus txs will be posted publicly
 - Operator/deployer/treasury/known operator wallets are excluded from bonuses

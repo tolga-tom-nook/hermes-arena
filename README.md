@@ -19,8 +19,8 @@ Status: scheduled draft, not live.
 - Proposed max entrants: 50
 - Proposed split: 90% winner / 5% treasury / 5% reserve
 - Proposed commit/reveal: 72h commit / 8h reveal
-- Operator-funded bonus: 0.5 HYPE winner + first 5 external valid reveals at 0.02 HYPE each
-- Total bonus cap: 0.6 HYPE
+- Operator-funded bonus: 0.03 HYPE winner + first 5 external valid reveals at 0.004 HYPE each
+- Total bonus cap: 0.05 HYPE
 - Draft page: [rounds/round-003.md](rounds/round-003.md)
 - Scheduled issue: https://github.com/tolga-tom-nook/hermes-arena/issues/3
 
